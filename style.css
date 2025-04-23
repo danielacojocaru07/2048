@@ -1,0 +1,86 @@
+body {
+    background: #faf8ef;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 64px;
+    color: #776e65;
+    margin-bottom: 10px;
+}
+
+.board {
+    background: #bbada0;
+    border-radius: 6px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #776e65;
+    background: #cdc1b4;
+}
+
+.cell:empty {
+    background: rgba(238, 228, 218, 0.35);
+}
+
+.cell[data-val="2"]    { background: #eee4da; color: #776e65; }
+.cell[data-val="4"]    { background: #ede0c8; color: #776e65; }
+.cell[data-val="8"]    { background: #f2b179; color: #f9f6f2; }
+.cell[data-val="16"]   { background: #f59563; color: #f9f6f2; }
+.cell[data-val="32"]   { background: #f67c5f; color: #f9f6f2; }
+.cell[data-val="64"]   { background: #f65e3b; color: #f9f6f2; }
+.cell[data-val="128"]  { background: #edcf72; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="256"]  { background: #edcc61; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="512"]  { background: #edc850; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="1024"] { background: #edc53f; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="2048"] { background: #edc22e; color: #f9f6f2; font-size: 32px; }
+
+#message {
+    font-size: 48px;
+    color: #776e65;
+    margin: 16px;
+    font-weight: bold;
+}
+
+#restart {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #8f7a66;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#restart:hover {
+    background-color: #a48b74;
+}
+
+#restart:active {
+    background-color: #776e65;
+}
+
