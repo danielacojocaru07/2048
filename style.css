@@ -44,17 +44,23 @@ h1 {
     background: rgba(238, 228, 218, 0.35);
 }
 
-.cell[data-val="2"]    { background: #eee4da; color: #776e65; }
-.cell[data-val="4"]    { background: #ede0c8; color: #776e65; }
-.cell[data-val="8"]    { background: #f2b179; color: #f9f6f2; }
-.cell[data-val="16"]   { background: #f59563; color: #f9f6f2; }
-.cell[data-val="32"]   { background: #f67c5f; color: #f9f6f2; }
-.cell[data-val="64"]   { background: #f65e3b; color: #f9f6f2; }
-.cell[data-val="128"]  { background: #edcf72; color: #f9f6f2; font-size: 40px; }
-.cell[data-val="256"]  { background: #edcc61; color: #f9f6f2; font-size: 40px; }
-.cell[data-val="512"]  { background: #edc850; color: #f9f6f2; font-size: 40px; }
-.cell[data-val="1024"] { background: #edc53f; color: #f9f6f2; font-size: 32px; }
-.cell[data-val="2048"] { background: #edc22e; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="2"]      { background: #eee4da; color: #776e65; }
+.cell[data-val="4"]      { background: #ede0c8; color: #776e65; }
+.cell[data-val="8"]      { background: #f2b179; color: #f9f6f2; }
+.cell[data-val="16"]     { background: #f59563; color: #f9f6f2; }
+.cell[data-val="32"]     { background: #f67c5f; color: #f9f6f2; }
+.cell[data-val="64"]     { background: #f65e3b; color: #f9f6f2; }
+.cell[data-val="128"]    { background: #edcf72; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="256"]    { background: #edcc61; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="512"]    { background: #edc850; color: #f9f6f2; font-size: 40px; }
+.cell[data-val="1024"]   { background: #edc53f; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="2048"]   { background: #edc22e; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="4096"]   { background: #3c3a32; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="8192"]   { background: #3c3a32; color: #f9f6f2; font-size: 32px; }
+.cell[data-val="16384"]  { background: #3c3a32; color: #f9f6f2; font-size: 28px; }
+.cell[data-val="32768"]  { background: #3c3a32; color: #f9f6f2; font-size: 28px; }
+.cell[data-val="65536"]  { background: #3c3a32; color: #f9f6f2; font-size: 28px; }
+.cell[data-val="131072"] { background: #3c3a32; color: #f9f6f2; font-size: 24px; }
 
 #message {
     font-size: 48px;
